@@ -73,7 +73,7 @@
 
     @include breakpoint("medium") {
         height: auto;
-        margin: (spacing("double") + spacing("base")) auto (spacing("double") + spacing("single"));
+        margin: 1.5rem auto 1rem;
         padding: 0;
 
         .header.fixed & {
