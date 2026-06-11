@@ -519,7 +519,7 @@
     ]
   },
   {
-    "name": "i18n.Global",
+    "name": "i18n.GlobalBanner",
     "settings": [
       {
         "type": "checkbox",
