@@ -3689,15 +3689,20 @@
     ]
   },
   {
-    "type": "checkbox",
-    "label": "Enable Promo Banner",
-    "id": "enable_promo_banner",
-    "default": true
-  },
-  {
-    "type": "text",
-    "label": "Promo Banner Text",
-    "id": "promo_banner_text",
-    "default": "🚚 Free Shipping on Orders Over $100"
+    "name": "Global",
+    "settings": [
+      {
+        "type": "checkbox",
+        "label": "Enable Promo Banner",
+        "id": "enable_promo_banner",
+        "default": true
+      },
+      {
+        "type": "text",
+        "label": "Promo Banner Text",
+        "id": "promo_banner_text",
+        "default": "Free Shipping on Orders Over $100"
+      }
+    ]
   }
 ]
