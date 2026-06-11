@@ -3698,7 +3698,7 @@
         "default": true
       },
       {
-        "type": "text",
+        "type": "input",
         "label": "Promo Banner Text",
         "id": "promo_banner_text",
         "default": "Free Shipping on Orders Over $100"
