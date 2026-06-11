@@ -519,6 +519,23 @@
     ]
   },
   {
+    "name": "Promo Banner",
+    "settings": [
+      {
+        "type": "checkbox",
+        "label": "Enable Promo Banner",
+        "id": "enable_promo_banner",
+        "default": true
+      },
+      {
+        "type": "input",
+        "label": "Promo Banner Text",
+        "id": "promo_banner_text",
+        "default": "Free Shipping on Orders Over $100"
+      }
+    ]
+  },
+  {
     "name": "i18n.HeaderAndFooter",
     "settings": [
       {
@@ -3685,23 +3702,6 @@
             "label": "i18n.Rectangle"
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "Promo Banner",
-    "settings": [
-      {
-        "type": "checkbox",
-        "label": "Enable Promo Banner",
-        "id": "enable_promo_banner",
-        "default": true
-      },
-      {
-        "type": "input",
-        "label": "Promo Banner Text",
-        "id": "promo_banner_text",
-        "default": "Free Shipping on Orders Over $100"
       }
     ]
   }
