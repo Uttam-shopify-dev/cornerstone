@@ -73,6 +73,18 @@
         ]
       },
       {
+        "type": "checkbox",
+        "label": "Enable Promo Banner",
+        "id": "enable_promo_banner",
+        "default": true
+      },
+      {
+        "type": "input",
+        "label": "Promo Banner Text",
+        "id": "promo_banner_text",
+        "default": "Free Shipping on Orders Over $100"
+      },
+      {
         "type": "select",
         "label": "i18n.BodyTextFontSize",
         "id": "fontSize-root",
@@ -515,23 +527,6 @@
         "type": "color",
         "label": "i18n.FieldBorderActive",
         "id": "input-border-color-active"
-      }
-    ]
-  },
-  {
-    "name": "i18n.GlobalBanner",
-    "settings": [
-      {
-        "type": "checkbox",
-        "label": "Enable Promo Banner",
-        "id": "enable_promo_banner",
-        "default": true
-      },
-      {
-        "type": "input",
-        "label": "Promo Banner Text",
-        "id": "promo_banner_text",
-        "default": "Free Shipping on Orders Over $100"
       }
     ]
   },
