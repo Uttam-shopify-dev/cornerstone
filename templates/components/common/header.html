@@ -30,15 +30,12 @@
     <div class="navPages-container" id="menu" data-menu>
         {{> components/common/navigation-menu}}
     </div>
-    {{#if theme_settings.enable_promo_banner}}
-        <div class="promo-banner">
-            {{theme_settings.promo_banner_text}}
-        </div>
-    {{/if}}
-
     <div class="promo-banner">
-        {{theme_settings.enable_promo_banner}}
-        {{theme_settings.promo_banner_text}}
+        Promo Banner Debug:
+        <br>
+        Enabled: {{theme_settings.enable_promo_banner}}
+        <br>
+        Text: {{theme_settings.promo_banner_text}}
     </div>
     {{{region name="header_navigation_bottom--global"}}}
 </header>
