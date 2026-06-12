@@ -31,6 +31,17 @@
   </div>
   {{/if}}
 
+  <div class="navPages-container" id="menu" data-menu>
+    {{> components/common/navigation-menu}}
+  </div>
+  <div class="promo-banner">PROMO BANNER TEST</div>
+  <div class="promo-banner">
+    Enabled: {{theme_settings.promo-banner-enabled}}
+    <br />
+
+
+    Text: {{theme_settings.promo-banner-text}}
+  </div>
   <div>Logo Position: {{theme_settings.logo-position}}</div>
   {{{region name="header_navigation_bottom--global"}}}
 </header>
