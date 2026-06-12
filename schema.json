@@ -42,18 +42,6 @@
         "id": "container-border-global-color-base"
       },
       {
-        "type": "checkbox",
-        "label": "Enable Promo Banner",
-        "id": "promo-banner-enabled",
-        "default": true
-      },
-      {
-        "type": "input",
-        "label": "Promo Banner Text",
-        "id": "promo-banner-text",
-        "default": "Free Shipping on Orders Over $100"
-      },
-      {
         "type": "heading",
         "content": "i18n.BodyTextAndLinks"
       },
